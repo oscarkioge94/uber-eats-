@@ -42,14 +42,14 @@ export default function Categories() {
                 {/* loop starts here */}
                 {items.map((item, index) => (
                     <View key={index} style={{ alignItems: 'center', marginRight: 30 }}>
-                        {/* <Image
+                        <Image
                             source={item.image}
                             style={{
                                 width: 50,
                                 height: 40,
                                 resizeMode: 'contain'
                             }}
-                        /> */}
+                        />
                         <Text style={{
                             fontSize: 13,
                             fontWeight: '900',
